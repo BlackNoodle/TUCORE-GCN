@@ -20,6 +20,8 @@
 - packaging
 - tqdm
 
+PS: If you use Docker, you can download Docker images that we used in our experiment [here](https://hub.docker.com/r/tjr4090/tucore-gcn).
+
 ## Usage
 
 - run_classifier.py : Code to train and evaluate the model
