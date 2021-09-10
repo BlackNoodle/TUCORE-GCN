@@ -57,7 +57,7 @@ PS: If you use Docker, you can download Docker images that we used in our experi
 #### DailyDialog
 
 - Download and unzip data from [here](http://yanran.li/dailydialog.html) 
-- Put  and unzip`train.zip`, `validation.zip`, `test.zip` from ```ijcnlp_dailydialog/``` into the directory `datasets/DailyDialog/`
+- Put and unzip`train.zip`, `validation.zip`, `test.zip` from ```ijcnlp_dailydialog/``` into the directory `datasets/DailyDialog/`
 - In  `DailyDialog`, execute  `python DailyDialog4TUCOREGCN.py`
 
 ### Pre-trained Language Models
@@ -71,6 +71,7 @@ PS: If you use Docker, you can download Docker images that we used in our experi
 #### RoBERTa Large
 
 - Download and unzip RoBERTa-large from [here](https://github.com/pytorch/fairseq/tree/master/examples/roberta), and copy the files into the directory `pre-trained_model/RoBERTa/`
+- Download `merges.txt` and `vocab.json` from [here](https://huggingface.co/roberta-large/tree/main) and put them into the directory `pre-trained_model/RoBERTa/`
 - Set up the environment variable for RoBERTa by ```export RoBERTa_LARGE_DIR=/PATH/TO/RoBERTa/DIR```. 
 - In `pre-trained_model`, execute ```python convert_roberta_original_pytorch_checkpoint_to_pytorch.py --roberta_checkpoint_path=$RoBERTa_LARGE_DIR --pytorch_dump_folder_path=$RoBERTa_LARGE_DIR```.
 
