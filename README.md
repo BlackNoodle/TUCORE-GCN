@@ -1,6 +1,6 @@
 # Graph Based Network with Contextualized Representations of Turns in Dialogue (EMNLP 2021)
 
-**Official PyTorch implementation of our EMNLP paper: Graph Based Network with Contextualized Representations of Turns in Dialogue**<br>
+**Official PyTorch implementation of our EMNLP paper: [Graph Based Network with Contextualized Representations of Turns in Dialogue](https://arxiv.org/abs/2109.04008)**<br>
 
 ![Architecture](Architecture.PNG)
 
