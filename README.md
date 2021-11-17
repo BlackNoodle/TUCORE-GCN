@@ -1,6 +1,6 @@
 # Graph Based Network with Contextualized Representations of Turns in Dialogue (EMNLP 2021)
 
-**Official PyTorch implementation of our EMNLP paper: [Graph Based Network with Contextualized Representations of Turns in Dialogue](https://arxiv.org/abs/2109.04008)**<br>
+**Official PyTorch implementation of our EMNLP paper: [Graph Based Network with Contextualized Representations of Turns in Dialogue](https://aclanthology.org/2021.emnlp-main.36/)**<br>
 
 ![Architecture](Architecture.PNG)
 
@@ -162,4 +162,18 @@ rm TUCOREGCN_RoBERTa_DailyDialog/model_best.pt
 ```
 
 ## Citation
-
+```bibtex
+@inproceedings{lee-choi-2021-graph,
+    title = "Graph Based Network with Contextualized Representations of Turns in Dialogue",
+    author = "Lee, Bongseok  and
+      Choi, Yong Suk",
+    booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2021",
+    address = "Online and Punta Cana, Dominican Republic",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.emnlp-main.36",
+    pages = "443--455",
+    abstract = "Dialogue-based relation extraction (RE) aims to extract relation(s) between two arguments that appear in a dialogue. Because dialogues have the characteristics of high personal pronoun occurrences and low information density, and since most relational facts in dialogues are not supported by any single sentence, dialogue-based relation extraction requires a comprehensive understanding of dialogue. In this paper, we propose the TUrn COntext awaRE Graph Convolutional Network (TUCORE-GCN) modeled by paying attention to the way people understand dialogues. In addition, we propose a novel approach which treats the task of emotion recognition in conversations (ERC) as a dialogue-based RE. Experiments on a dialogue-based RE dataset and three ERC datasets demonstrate that our model is very effective in various dialogue-based natural language understanding tasks. In these experiments, TUCORE-GCN outperforms the state-of-the-art models on most of the benchmark datasets. Our code is available at https://github.com/BlackNoodle/TUCORE-GCN.",
+}
+```
